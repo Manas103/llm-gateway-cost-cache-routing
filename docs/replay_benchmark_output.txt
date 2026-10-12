@@ -1,0 +1,55 @@
+{
+  "n_requests_per_condition": 10000,
+  "static_block_tokens": 300,
+  "variable_tokens_mean": 200,
+  "naive_billed_input_tokens": 4989016.0,
+  "cache_aware_billed_input_tokens": 2291716.0,
+  "pct_billed_input_tokens_reduction": 54.06,
+  "per_team_report_cache_aware": [
+    {
+      "team": "ads-platform",
+      "n_requests": 1948,
+      "total_input_tokens": 972970,
+      "total_cached_prefix_tokens": 583800,
+      "total_output_tokens": 349570,
+      "avg_latency_ms": 370.7510735453514,
+      "total_cost_usd": 7.741137000000009
+    },
+    {
+      "team": "data-platform",
+      "n_requests": 2064,
+      "total_input_tokens": 1030909,
+      "total_cached_prefix_tokens": 618600,
+      "total_output_tokens": 371636,
+      "avg_latency_ms": 375.35408060471616,
+      "total_cost_usd": 8.326565999999994
+    },
+    {
+      "team": "fraud-risk",
+      "n_requests": 2020,
+      "total_input_tokens": 1005684,
+      "total_cached_prefix_tokens": 605400,
+      "total_output_tokens": 362977,
+      "avg_latency_ms": 373.03899855240184,
+      "total_cost_usd": 8.075000500000005
+    },
+    {
+      "team": "growth",
+      "n_requests": 1990,
+      "total_input_tokens": 991475,
+      "total_cached_prefix_tokens": 596400,
+      "total_output_tokens": 357318,
+      "avg_latency_ms": 379.3647677596309,
+      "total_cost_usd": 8.104716
+    },
+    {
+      "team": "search-infra",
+      "n_requests": 1978,
+      "total_input_tokens": 987978,
+      "total_cached_prefix_tokens": 592800,
+      "total_output_tokens": 355120,
+      "avg_latency_ms": 379.694936259774,
+      "total_cost_usd": 8.15426250000001
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "n_calls": 2000,
+  "fail_rate": 0.05,
+  "n_failed_over": 131,
+  "failover_p50_ms": 185.5,
+  "failover_p99_ms": 309.4,
+  "failover_max_ms": 360.4,
+  "normal_p99_ms": 957.5
+}

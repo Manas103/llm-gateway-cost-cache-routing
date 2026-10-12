@@ -1,0 +1,19 @@
+{
+  "n_tasks": 300,
+  "routing_thresholds": [
+    1.5,
+    1.5
+  ],
+  "baseline_always_frontier": {
+    "pass_rate": 0.93,
+    "cost_usd": 2.2386
+  },
+  "difficulty_based_routing": {
+    "pass_rate": 0.9067,
+    "cost_usd": 1.3273,
+    "frontier_calls": 174,
+    "fast_calls": 126
+  },
+  "pass_rate_gap_pp": 2.33,
+  "pct_cost_reduction": 40.71
+}
